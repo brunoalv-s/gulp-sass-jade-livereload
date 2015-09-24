@@ -1,0 +1,35 @@
+{
+  "name": "webdev-kit",
+  "version": "1.0.0",
+  "description": "Um kit de desenvolvimento inicial, com SASS, JADE e LiveReload automatizado por GulpJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunoalv-s/gulp-sass-jade-livereload.git"
+  },
+  "keywords": [
+    "gulp",
+    "jade",
+    "sass",
+    "livereload",
+    "webdev kit"
+  ],
+  "author": "Bruno Alves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brunoalv-s/gulp-sass-jade-livereload/issues"
+  },
+  "homepage": "https://github.com/brunoalv-s/gulp-sass-jade-livereload#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-connect": "^2.2.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-jade": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4"
+  }
+}
