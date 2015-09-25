@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-Gulp-SASS-Jade-LiveReload
-=========================
-=======
 # Gulp-SASS-Jade-LiveReload
 Kit de desenvolvimento inicial, projeto automatizado de build com o GulpJS. Configurado com SASS, Jade e LiveReload.
 
@@ -32,4 +28,3 @@ $ gulp
 Ele vai rodar todas as tarefas listadas como default no seu *gulpfile.js*, e no fim vai assistir os arquivos definidos no próprio *gulpfile.js* além de subir um "servidor" local.
 
 Você poderá abrir o navegador e acessar pelo endereço: *http://localhost:8080 (verifique o url pelo próprio terminal)*, todas as mudanças feitas nos arquivos assistidos serão mostradas automaticamente no navegador.
->>>>>>> 34cede0de78eb0ac5952ffd3a85a725cdec98f09
