@@ -27,4 +27,6 @@ $ gulp
 ```
 Ele vai rodar todas as tarefas listadas como default no seu *gulpfile.js*, e no fim vai assistir os arquivos definidos no próprio *gulpfile.js* além de subir um "servidor" local.
 
+![image](https://raw.githubusercontent.com/brunoalv-s/gulp-sass-jade-livereload/master/images/gulp-screen.PNG)
+
 Você poderá abrir o navegador e acessar pelo endereço: *http://localhost:8080 (verifique o url pelo próprio terminal)*, todas as mudanças feitas nos arquivos assistidos serão mostradas automaticamente no navegador.
