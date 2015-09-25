@@ -7,7 +7,8 @@ var gulp    = require('gulp');
     connect = require('gulp-connect');
 
 // settings tasks
-gulp.task('default', ['jade', 'jadepage', 'stylesheets', 'connect', 'watch']);
+// Definimos uma tarefa padrão, onde usando apenas o comando gulp no terminal/cmd, todas as tarefas aqui listadas serão realizadas.
+gulp.task('default', ['jade', 'stylesheets', 'connect', 'watch']);
 
 // Convert Jade files to HTML
 gulp.task('jade', function() {
@@ -17,15 +18,7 @@ gulp.task('jade', function() {
     .pipe(gulp.dest('./dist'));
 });
 
-  // Convert JadePages files
-  gulp.task('jadepage', function() {
-    gulp.src('./src/jade/jadepages/**.jade')
-      .pipe(connect.reload())
-      .pipe(jade())
-      .pipe(gulp.dest('./dist/pages'));
-  });
-
-// Convert SASS/SCSS files to CSS
+// Aqui definimos a tarefa que vai compilar nossos arquivos SASS/SCSS (que estão no caminho definido em gulp.src) para CSS.
 gulp.task('stylesheets', function() {
   gulp.src('./src/sass/**.{scss,sass}')
     .pipe(connect.reload())
@@ -42,7 +35,7 @@ gulp.task('stylesheets', function() {
 
 gulp.task('watch', function() {
   gulp.watch('./src/**/*.{sass,scss}', ['stylesheets'])
-  gulp.watch('./src/**/*.jade', ['jade', 'jadepage']);
+  gulp.watch('./src/**/*.jade', ['jade']);
 });
 
 gulp.task('connect', function() {
