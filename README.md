@@ -30,3 +30,12 @@ Ele vai rodar todas as tarefas listadas como default no seu *gulpfile.js*, e no 
 ![image](https://raw.githubusercontent.com/brunoalv-s/gulp-sass-jade-livereload/master/images/gulp-screen.PNG)
 
 Você poderá abrir o navegador e acessar pelo endereço: *http://localhost:8080 (verifique o url pelo próprio terminal)*, todas as mudanças feitas nos arquivos assistidos serão mostradas automaticamente no navegador.
+
+#### Dicas
+
+Pode parecer óbvio, mas percebi que poucas pessoas usam o LiveReload em outros dispositivos enquanto desenvolvem seus sites. Mas com o "servidor local" que o *gulp-connect*, você pode utilizar a Rede Wifi e testar seus sites em dispositivos móveis por exemplo.
+```sh
+http://seuip:8080
+no meu caso
+http://192.168.0.6:8080
+```
