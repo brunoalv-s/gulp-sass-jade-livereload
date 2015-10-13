@@ -2,7 +2,7 @@
 Kit de desenvolvimento inicial, projeto automatizado de build com o GulpJS. Configurado com SASS, Jade e LiveReload.
 
 ## Como usar
-Gulp funciona com o [NodeJS](https://nodejs.org/), você precisará tê-lo instalado no seu computador além do [GulpJS](gulpjs.com) (de preferência de forma global). Você pode ter mais detalhes da instalação do NodeJs e do uso básico do Gulp [Aqui](http://tableless.com.br/gulp-o-novo-automatizador/) ou [Aqui](http://blog.caelum.com.br/bye-bye-grunt-js-hello-gulp-js/).
+Gulp funciona com o [NodeJS](https://nodejs.org/), você precisará tê-lo instalado no seu computador além do [GulpJS](http://gulpjs.com) (de preferência de forma global). Você pode ter mais detalhes da instalação do NodeJs e do uso básico do Gulp [Aqui](http://tableless.com.br/gulp-o-novo-automatizador/) ou [Aqui](http://blog.caelum.com.br/bye-bye-grunt-js-hello-gulp-js/).
 
 ### Install modules e Run
 Acesse via terminal a pasta do seu projeto e dê:
